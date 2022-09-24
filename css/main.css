@@ -1,0 +1,1601 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    height: 4000px;
+}
+div.nav{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 998;
+    background-color: #fff;
+}
+div.nav .logo{
+    font-size: 28px;
+    margin: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #212529;
+}
+div.nav .logo span{
+    color: #50658e;
+}
+.nav .list ul{
+    display: flex;
+    list-style-type: none;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.nav .list ul li{
+    margin: 15px;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.nav .list ul li i{
+    font-size: 35px;
+    display: none;
+}
+
+.nav .list ul li a{
+    text-decoration: none;
+    color: #50658e;
+}
+.nav .list ul li a:hover{
+    color: #007bff;
+}
+.nav .list ul li a::placeholder{
+color: #2a81ea;
+}
+.nav .list ul li .button{
+    background-color: #007bff;
+    border: 1px #007bff solid;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 13px 20px;
+    color: white;
+    transition: 0.05s;
+}
+.nav .list ul li .button:hover{
+    background-color: #085eba;
+}
+
+/* End navvvvvvvvvvvvvvvvvvvvvvvvvvv */
+
+div.home{
+    margin-top: 77px;
+    background-image: url(../images/light-grey-medical-background-with-corona-virus-cell-covid-19-infection-disease-coronavirus-vector-template_292608-1416.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.home .container{
+    width: 50%;
+    display: block;
+}
+.home .container .title{
+    width: 100%;
+    height: auto;
+    margin: 10px 0px 20px;
+}
+.home .container .title .intitle{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.home .container .title h2{
+    color: #50658e;
+    font-size: 65px;
+    font-weight: 1000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+}
+.home .container .title span {
+    padding: 40px 10px 20px;
+}
+.home .container .title span h4{
+    color: red;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.home .container .title span h3{
+    color: #50658e;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.home .container .next {
+    width: 80%;
+    margin: auto;
+}
+.home .container .next p{
+    color: #3d4b69;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.home .container .dirc{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 70px 0px 50px;
+    display: flex;
+}
+.home .container .dirc .prot{
+    width: 60%;
+    height: auto;
+    padding-top: 10px;
+}
+.home .container .dirc .prot a{
+    border: solid 1px #007bff;
+    background-color: #007bff;
+    border-radius: 30px;
+    font-size: 19px;
+    padding: 9px 15px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home .container .dirc .aboutcov{
+    width: 40%;
+}
+.home .container .dirc .aboutcov a{
+    text-decoration: none;
+    color:#007bff;
+}
+
+.home .pic{
+    width: 50%;
+}
+.home .pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.home .noscontainer{
+    width: 70%;
+    margin: auto;
+}
+.home .noscontainer .nostitle{
+    width: 92.5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.home .noscontainer .nos{
+    display: flex;
+    justify-content: space-around;
+}
+.home .noscontainer .nostitle .titlecont{
+    text-align: center;
+    font-size: 16px;
+    color: #7d92bb;
+    line-height: 1.5;
+
+}
+.home .noscontainer .nos .nocont{
+    text-align: center;
+    font-size: 30px;
+    color: #50658e;
+    line-height: 1.2;
+    font-weight: bold;
+}
+.home .lastupdate{
+    width: 80%;
+    margin: auto;
+    padding: 40px 0px 50px;
+    color: #7d92bb;
+}
+
+/* End Homeeeeeeeeee */
+
+div.aboutcontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.aboutcontainer .texty{
+    width: 67%;
+}
+.aboutcontainer .texty .l1 h3{
+    width: 85%;
+    margin: auto;
+    color: #3f6ffd;
+    font-size: 20px;
+    font-weight: 500;
+}
+.aboutcontainer .texty .l2 h1{
+    width: 85%;
+    margin: auto;
+    color: #50658e;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+}
+.aboutcontainer .texty .l3 h3{
+    width: 85%;
+    margin: auto;
+    color: #3d4b69;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.aboutcontainer .texty .l4 p{
+    width: 85%;
+    margin: auto;
+    color: #3d4b69;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+
+.aboutcontainer .linkcontainer{
+    width: 33%;
+    height: auto;
+}
+.aboutcontainer .linky{
+    width: 90%;
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+
+.aboutcontainer .linky .li1 {
+    width: 95%;
+    margin: 20px 5px;
+    color: #3d4b69;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    
+}
+.aboutcontainer .linky .li2, .li3, .li4, .li5, .li6, .li7{
+    width: 85.4%;
+
+    margin: auto;
+    padding: 18px 24px;
+    border: 1px gray solid;
+}
+.aboutcontainer .linky .li2 a, .li3 a, .li4 a, .li5 a, .li6 a, .li7 a{
+    width: 95%;
+    color: #007bff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+
+.aboutcontainer .linky .li2 a span i, .li3 a span i, .li4 a span i, .li5 a span i, .li6 a span i, .li7 a span i{
+    text-align: right;
+}
+
+/* End ABOUT THE DISEASEEEEEEEEEEEEEEE */
+
+
+.how-spread{
+    background-color: #F7F9FE;
+    width: 100%;
+    height: auto;
+    margin-top: 50PX;
+}
+.how-spread .how-title{
+    width: 40%;
+    margin: auto;
+    padding: 10px 0px;
+}
+.how-spread .how-title h3{
+    color: #007bff;
+}
+
+.how-spread .trans-title{
+    width: 50%;
+    margin: auto;
+    padding: 10px 0px;
+}
+.how-spread .trans-title h1{
+    color: #50658e;
+}
+.how-spread .parag{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0px 20px;
+}
+.how-spread .parag p{
+    color: #3d4b69;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .card{
+    width: 30%;
+    border: 1px solid #c3cad8;
+    border-radius: 4px;
+}
+.container .card .img{
+    width: 100%;
+    height:190px;
+}
+.container .card .img img{
+    width: 100%;
+}
+.container .card .text{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    padding: 20px 0px 20px;
+    border-top: 5px solid #6e9fff;
+}
+.container .card .text h2{
+    color:#50658e;
+}
+.container .card .text p{
+    color: #3d4b69;
+    font-size: 1rem;
+    padding-top: 10px;
+}
+
+.container .big-button{
+    width: 60%;
+    height: 100px;
+    margin-bottom: 250px;
+    position: relative;
+}
+
+.container .big-button .button-71{
+    background-color: #007bff;
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    padding: 16px 21px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    top: 20px;
+    left: 32.5%;
+}
+  
+.button-71:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0px;
+    transition: all .3s;
+    width: 92%;
+}
+  
+.button-71:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+  
+
+
+
+/* how spreadddddddddddddddddddddddddddddd */
+
+div.symptoms{
+    width: 100%;
+    height: auto;
+    margin-top: 250px;
+}
+.symptoms .symptoms-title{
+    width: 40%;
+    margin: auto;
+    padding: 10px 0px;
+}
+.symptoms .symptoms-title h3{
+    color: #007bff;
+}
+.symptoms .symptoms-b-title{
+    width: 50%;
+    margin: auto;
+    padding: 10px 0px;
+}
+.symptoms .symptoms-b-title h1{
+    color: #50658e;
+}
+.symptoms .parag2{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0px 20px;
+}
+.symptoms .parag2 p{
+    color: #3d4b69;
+    text-align: center;
+}
+.symptoms .container2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.symptoms .container2 .card2{
+    width: 33.33%;
+    border-right: 1px solid #e3e6ed;
+    border-bottom: 1px solid #e3e6ed;
+    border-left: 1px solid #e3e6ed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.symptoms .container2 .card2 .img2{
+    width: 25%;
+    height: 25%;
+    height: 80px;
+}
+.symptoms .container2 .card2 h2{
+    width: 70%;
+    color: #007bff;
+    padding-top: 40px;
+}
+.symptoms .container2 .card2 .img2 img{
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.symptoms .container2 .card2 .text2{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    padding: 20px 0px 20px;
+}
+.symptoms .container2 .card2 .text2 p{
+    color: #3d4b69;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.symptoms .alerts{
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    padding: 40px 0px 50px;
+}
+.symptoms .alerts .right{
+    width: 45%;
+    position: relative;
+}
+.symptoms .alerts .right .button-71 {
+    background-color: #007bff;
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    padding: 16px 21px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    top: 20px;
+    left: 32.5%;
+}
+  
+.button-71:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0px;
+    transition: all .3s;
+    width: 92%;
+}
+  
+.button-71:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+  
+@media (min-width: 768px) {
+    .button-71 {
+      padding: 16px 48px;
+    }
+}
+.symptoms .alerts .left{
+    float: left;
+    width: 40%;
+    display: flex;
+}
+.symptoms .alerts .left .icon{
+    width: 20%;
+    color:#50658e;
+    font-size: 74px;
+}
+.symptoms .alerts .left .paragraph{
+    width: 80%;
+    font-size: 18px;
+}
+.symptoms .alerts .left .paragraph span{
+    font-weight: 800;
+    color: #007bff;
+}
+
+/* End Symptomssssssssssssssssss */
+
+
+
+.Prevention{
+    background-color: #F7F9FE;
+    width: 100%;
+    height: auto;
+    margin-top: 50PX;
+}
+.Prevention .Prevention-title{
+    width: 40%;
+    margin: auto;
+    padding: 10px 0px;
+}
+.Prevention .Prevention-title h3{
+    color: #007bff;
+}
+
+.Prevention .Prevention-b-title{
+    width: 50%;
+    margin: auto;
+    padding: 10px 0px;
+}
+.Prevention .Prevention-b-title h1{
+    color: #50658e;
+}
+.Prevention .parag3{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0px 20px;
+}
+.Prevention .parag3 p{
+    color: #3d4b69;
+}
+
+.container3{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 .card3{
+    width: 30%;
+}
+.container3 .card3 .img3{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+.container3 .card3 .img3 img{
+    width: 100%;
+    border: #fff solid 1px;
+    border-radius: 50%;
+}
+.container3 .card3 .text3{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    padding: 20px 0px 20px;
+}
+.container3 .card3 .text3 h2{
+    color: #50658e;
+    text-align: center;
+}
+.container3 .card3 .text3 p{
+    color: #3d4b69;
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.Prevention .check{
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    display: block;
+    padding: 40px 0px 50px;
+}
+.Prevention .check .up{
+    width: 95%;
+    position: relative;
+}
+.Prevention .check .up .button-71 {
+    background-color: #007bff;
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 0;
+    padding: 16px 21px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    top: 20px;
+    left: 35.5%;
+}
+  
+.button-71:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0px;
+    transition: all .3s;
+    width: 92%;
+}
+  
+.button-71:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+
+.Prevention .check .down{
+   width: 30%;
+   margin: auto;
+   padding: 140px 0px 60px;
+   text-align: center;
+}
+.Prevention .check .down a{
+    text-decoration: none;
+    color: #0056b3;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+.Prevention .check .down a:hover{
+    color: #3964e4;
+}
+
+
+/* <!-- End preventionnnnnnnnnnnnnnnnnnnnnn --> */
+
+
+div.steps-container{
+    width: 100%;
+    height: auto;
+    background-color: #F7F9FE;
+}
+
+.steps-container .steps-protect{
+    width: 95%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+    border: #fff 1px solid;
+    border-radius: 10px;
+    justify-content: space-between;
+    box-shadow: 10px 10px 10px  rgb(207, 206, 206);
+}
+.steps-container .steps-protect .text{
+    width: 55%;
+    height: auto;
+}
+.steps-container .steps-protect .text h1{
+    color: #3D4B77;
+}
+.steps-container .steps-protect .text ul{
+    font-size: 18px;
+    color: #3D4B77;
+}
+.steps-container .steps-protect .text li{
+    list-style-type: none;
+    margin: 20px 10px;
+}
+.steps-container .steps-protect .text li i{
+    color: rgb(36, 182, 36);
+}
+.steps-container .steps-protect .img{
+    width: 40%;
+    height: 100%;
+}
+.steps-container .steps-protect .img img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+
+/* <!-- End steps to protectttttttttttttt --> */
+
+
+div.steps-wash{
+    width: 95%;
+    margin: auto;
+    background-color: #F7F9FE;
+    padding-bottom: 200px;
+}
+.steps-wash .steps-title{
+    width: 40%;
+    margin: auto;
+    padding: 100px 0px 10px;
+}
+.steps-wash .steps-title h1{
+    color: #3D4B77;
+}
+
+.steps-wash .whyneed{
+    width: 30%;
+    margin: auto;
+    padding: 10px 0px;
+}
+.steps-wash .whyneed a{
+text-decoration: none;
+color: #007bff;
+font-weight: 800;
+font-size: 20px;
+}
+.steps-wash .whyneed a:hover{
+    color: #022245;
+}
+.steps-wash .img-container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.steps-wash .img-container .img-steps{
+    width: 16%;
+    text-align: center;
+}
+.steps-wash .img-container .img-steps img{
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border: #fff 1px solid;
+    border-radius: 50%;
+}
+.steps-wash .img-container .img-steps h2{
+    color: #50658e;
+    font-size: 18px;
+}
+
+
+/* End wash stepssssssssssssssssssss */
+
+
+div.careful{
+    background-image: url(../images/imagess.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+    display: flex;
+}
+.careful .left{
+    width: 50%;
+    padding: 10px 15px 10px 70px;
+}
+.careful .left h3{
+    width: 70%;
+    margin: 20px 0px;
+    color: #0460c3;
+}
+.careful .left h1{
+    width: 100%;
+    margin: 20px 0px;
+    margin: auto;
+    color: #fff;
+}
+.careful .left p{
+    font-size: 16px;
+    margin: 20px 0px;
+    color: #fff;
+}
+.careful .right{
+    width: 35%;
+    background-color: rgb(27, 71, 161);
+    margin: 20px 50px;
+    border: 1px rgb(27, 71, 161) solid;
+    border-radius: 20px;
+    margin: 10px 100px 10px 20px;
+    color: #fff;
+}
+.careful .right h4{
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 30px;
+}
+
+.careful .right p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px;
+}
+.careful .right ul{
+    list-style-type: none;
+}
+.careful .right ul li{
+    margin: 30px;
+}
+
+
+/* End of stay carefullllllllllll */
+
+
+.prot-yourself{
+    width: 100%;
+    height: auto;
+    background-color: #F7F9FE;
+    padding: 100px 0px;
+}
+.prot-yourself .self-title{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.prot-yourself .self-title h3{
+    color: #0460c3;
+    padding: 10px 0px;
+}
+.prot-yourself .self-title h1{
+    color: #50658e;
+    padding: 10px 0px;
+}
+.prot-yourself .self-title p{
+    color: #50658e;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.prot-yourself .do-container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+.prot-yourself .do-container .left{
+    width: 30%;
+}
+.prot-yourself .do-container .left .imgw{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.prot-yourself .do-container .left .imgw .comb{
+    width: 30%;
+    position: relative;
+}
+.prot-yourself .do-container .left .imgw .comb img{
+    width: 80%;
+    border: 2px #007bff solid;
+    border-radius: 50%;
+}
+.prot-yourself .do-container .left .imgw .comb i{
+    color: red;
+    position: absolute;
+
+}
+.prot-yourself .do-container .left .imgw h3{
+    color: #007bff;
+    padding-top: 30px;
+}
+
+.prot-yourself .do-container .midm{
+    width: 40%;
+}
+.prot-yourself .do-container .midm .imgm{
+    width: 100%;
+}
+.prot-yourself .do-container .midm .imgm img{
+    width: 100%;
+}
+
+.prot-yourself .do-container .right{
+    width: 30%;
+}
+.prot-yourself .do-container .right .imgr{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.prot-yourself .do-container .right .imgr .comb2{
+    width: 30%;
+    position: relative;
+}
+.prot-yourself .do-container .right .imgr .comb2 i{
+    color: green;
+    position: absolute;
+    right: 20px;
+}
+.prot-yourself .do-container .right .imgr .comb2 img{
+    width: 80%;
+    height: 100%;
+    border: 2px #007bff solid;
+    border-radius: 50%;
+}
+.prot-yourself .do-container .right .imgr h3{
+    color: #007bff;
+    padding-top: 30px;
+}
+
+
+/* <!-- End do % donts protect your selfffffffff --> */
+
+
+
+/* <!-- Skipped the FREQUENTLY ASKED QUESTION due no Botstrab required for this task --> */
+
+
+div.last-update{
+    width: 100%;
+    height: auto;
+    background-color: #F7F9FE;
+}
+
+.last-update h3{
+    width: 18%;
+    margin: auto;
+    color: #007bff;
+    padding: 10px 0px;
+}
+.last-update h1{
+    width: 23%;
+    margin: auto;
+    color: #50658e;
+    padding: 0px 0px 40px;
+}
+
+.last-update .card-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.last-update .card-container .card{
+    background-color: #fff;
+    width: 31%;
+    height: auto;
+    border: 1px #fff solid;
+    border-radius: 5px;
+}
+.last-update .card-container .card .img{
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    padding: 15px 0px;
+}
+.last-update .card-container .card .img img{
+    width: 100%;
+    border: 1px #fff solid;
+    border-radius: 10px;
+}
+.last-update .card-container .card h3{
+    width: 90%;
+    text-align: center;
+    color: #50658e;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.last-update .card-container .card p{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: #50658e;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 0px;
+}
+
+
+/* End last updateeeeeeeeeee */
+
+
+div.footer{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/images.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.footer .upper{
+    width: 90%;
+    margin: auto;
+    padding: 100px 0px;
+    border-bottom: 1px solid #b2bfe0;
+}
+.footer .upper .upper-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .upper .upper-container .sect{
+    width: 23%;
+}
+.footer .upper .upper-container .sect .logof{
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+.footer .upper .upper-container .sect .logof i{
+    color: #dc3545;
+    padding: 0px 5px;
+}
+.footer .upper .upper-container .sect .logof span{
+    color: #50658e;
+}
+
+.footer .upper .upper-container .sect h2{
+    color: #fff;
+    padding: 10px 0px;
+}
+.footer .upper .upper-container .sect p{
+    color: #b2bfe0;
+    padding: 10px 0px;
+}
+.footer .upper .upper-container .sect ul{
+    list-style-type: none;
+}
+.footer .upper .upper-container .sect ul li:hover{
+    border-bottom: solid 1px #b2bfe0;
+}
+.footer .upper .upper-container .sect ul li{
+    color: #b2bfe0;
+    padding: 5px 0px;
+}
+.footer .upper .upper-container .sect ul li a{
+ text-decoration: none;
+ color: #b2bfe0;
+}
+.footer .upper .upper-container .sect a{
+    text-decoration: none;
+}
+.footer .upper .upper-container .sect a i{
+    color: #b2bfe0;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+.footer .upper .upper-container .sect a i:hover{
+    color: #6f42c1;
+}
+
+div.downer{
+    width: 88%;
+    margin: auto;
+    padding: 100px 0px;
+}
+.downer .top{
+    color: #b2bfe0;
+}
+.downer .top strong{
+    color: #fff;
+}
+.downer .top a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+}
+.downer .top a:hover{
+    border: 1px solid aqua;
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+.downer .down{
+    color: #b2bfe0;
+    padding: 10px 0px;
+}
+
+
+
+
+/* End Footerrrrrrrrrrrrrr */
+
+@media screen and (max-width:600px) {
+    div.nav{
+        position: absolute;
+        top: 0px;
+    }
+    div.nav .logo{
+        margin: 20px 0px 0px 10px;
+    }
+    .nav .list ul{
+        display: block;
+        padding-right: 5px;
+        text-align: end;
+    }
+    .nav .list ul li i{
+        display: block;
+    }
+    .nav .list ul li a{
+        
+    }
+    div.home{
+        margin-top: 400px;
+        display: block;
+    }
+    .home .container{
+        width: 98%;
+    }
+    .home .container .title .intitle{
+        display: block;
+    }
+    .home .container .dirc{
+        display: block;
+    }
+    .home .container .dirc .prot{
+        width: 85.5%;
+        margin: auto;
+    }
+    .home .container .dirc .aboutcov{
+        width: 65%;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .home .noscontainer{
+        width: 98%;
+    }
+    .home .noscontainer .nostitle{
+        display: block;
+    }
+    .home .noscontainer .nos{
+        display: block;
+    }
+    .home .lastupdate{
+        width: 98%;
+        text-align: center;
+    }
+
+    .home .pic{
+        width: 70%;
+        margin: auto;
+    }
+    
+    
+    /* End Homeeeeeeeeee */
+
+    div.aboutcontainer{
+        display: block;
+        margin-top: 50px;
+    }
+    .aboutcontainer .texty{
+        width: 98%;   
+    }
+    .aboutcontainer .texty .l1 h3{
+        text-align: center;
+    }
+    .aboutcontainer .texty .l2 h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .aboutcontainer .texty .l3 h3{
+        width: 85.87227%;
+        text-align: center;
+    }
+    .aboutcontainer .texty .l4 p{
+        width: 85%;
+        margin: auto;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+
+    .aboutcontainer .linkcontainer{
+        width: 90%;
+        margin: auto;
+    }
+    .aboutcontainer .linky{
+        width: 98%;
+        border: 1px gray solid;
+        border-radius: 5px;
+    }
+    
+    .aboutcontainer .linky .li1 {
+        width: 95%;
+        margin: 20px 5px;
+        
+    }
+    .aboutcontainer .linky .li2, .li3, .li4, .li5, .li6, .li7{
+        width: 84.1%;
+        padding: 18px 24px;
+    }
+    .aboutcontainer .linky .li2 a, .li3 a, .li4 a, .li5 a, .li6 a, .li7 a{
+        width: 95%;
+    }
+
+
+    /* <!-- End About the deseassssssssssssssssseeeeeeeeee --> */
+
+
+    .how-spread{
+        width: 100%;
+        height: auto;
+        margin-top: 50PX;
+    }
+    .how-spread .how-title{
+        width: 90%;
+        text-align: center;
+    }
+    .how-spread .trans-title{
+        width: 90%;
+        text-align: center;
+    }
+    .how-spread .parag{
+        width: 90%;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .container{
+        width: 100%;
+        display: block;
+    }
+    
+    .container .card{
+        width: 90%;
+        margin: auto;
+    }
+    .container .card .img img{
+        width: 100%;
+    }
+    .container .card .text{
+        text-align: center;
+    }
+    
+    .container .big-button{
+        width: 60%;
+        margin: auto;
+        position: relative;
+    }
+    .button-71 {
+        padding: 16px 48px;
+    }
+
+
+    
+
+/* how spreadddddddddddddddddddddddddddddd */
+
+
+
+    .symptoms .symptoms-title{
+        width: 90%;
+        text-align: center;
+    }
+    .symptoms .symptoms-b-title{
+        width: 80%;
+        text-align: center;
+    }
+    .symptoms .container2{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .symptoms .container2 .card2{
+        width: 80%;
+        margin: auto;
+    }
+
+    .symptoms .alerts{
+        width: 100%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .symptoms .alerts .right{
+        width: 90%;
+    }
+    .symptoms .alerts .right .button-71 {
+        top: 20px;
+        left: 23%;
+    }
+    .symptoms .alerts .left{
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+    .symptoms .alerts .left .icon{
+        width: 25%;
+        font-size: 74px;
+    }
+    .symptoms .alerts .left .paragraph{
+        width: 75%;
+        font-size: 18px;
+    }
+
+
+    
+    /* End Symptomssssssssssssssssss */
+    
+    
+    
+    .Prevention{
+        margin-top: 200PX;
+    }
+    .Prevention .Prevention-title{
+        width: 90%;
+        text-align: center;
+    }
+    .Prevention .Prevention-b-title{
+        width: 80%;
+        text-align: center;
+    }
+    .Prevention .parag3{
+        width: 80%;
+        text-align: center;
+    }
+    .container3{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .container3 .card3{
+        width: 90%;
+    }
+    .container3 .card3 .text3{
+        text-align: center;
+    }
+    .Prevention .check{
+        width: 100%;
+    }
+    .Prevention .check .up{
+        width: 90%;
+    }
+    .Prevention .check .up .button-71 {
+        left: 10%;
+    }
+    .button-71 {
+        padding: 16px 48px;
+    }
+    .Prevention .check .down{
+        width: 90%;
+    }
+    .Prevention .check .down a{
+        text-decoration: none;
+        color: #0056b3;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+    }
+    .Prevention .check .down a:hover{
+        color: #3964e4;
+    }
+     
+     
+    /* <!-- End preventionnnnnnnnnnnnnnnnnnnnnn --> */
+     
+
+
+    .steps-container .steps-protect{
+        width: 90%;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .steps-container .steps-protect .text{
+        width: 90%;
+    }
+    .steps-container .steps-protect .img{
+        width: 90%;
+        height: 100%;
+    }
+    .steps-container .steps-protect .img img{
+        width: 100%;
+    }
+
+
+    /* <!-- End steps to protectttttttttttttt --> */
+
+
+
+
+    div.steps-wash{
+        width: 100%;
+    }
+    .steps-wash .steps-title{
+        width: 90%;
+        text-align: center;
+    }
+    .steps-wash .whyneed{
+        width: 90%;
+        text-align: center;
+    }
+    .steps-wash .img-container{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .steps-wash .img-container .img-steps{
+        width: 35%;
+    }
+    .steps-wash .img-container .img-steps img{
+        width: 80%;
+        height: 80%;
+    }
+    .steps-wash .img-container .img-steps h2{
+        color: #50658e;
+        font-size: 18px;
+    }
+    
+    
+    /* End wash stepssssssssssssssssssss */
+    
+    
+    div.careful{
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    .careful .left{
+        width: 90%;
+        padding: 10px 15px 10px 20px;
+    }
+    .careful .left h3{
+        width: 100%;
+        margin: auto;
+        background-color: rgb(41, 40, 40);
+    }
+    .careful .left h1{
+        width: 100%;
+        font-size: 30px;
+    }
+    .careful .right{
+        width: 90%;
+        margin: auto;
+    }
+    
+    
+    /* End of stay carefullllllllllll */
+    
+    
+
+
+    .prot-yourself{
+        width: 100%;
+        padding: 100px 0px;
+        margin: auto;
+    }
+    .prot-yourself .self-title{
+        width: 90%;
+    }
+    .prot-yourself .self-title h3{
+        padding: 10px 0px;
+    }
+    .prot-yourself .self-title h1{
+        padding: 10px 0px;
+    }
+    .prot-yourself .self-title p{
+        padding: 10px 0px;
+    }
+    .prot-yourself .do-container{
+        width: 90%;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .prot-yourself .do-container .left{
+        width: 90%;
+    }
+    .prot-yourself .do-container .left .imgw .comb img{
+        width: 80%;
+        border: 2px #007bff solid;
+        border-radius: 50%;
+    }
+    
+    .prot-yourself .do-container .midm{
+        width: 90%;
+        margin: auto;
+    }
+    .prot-yourself .do-container .midm .imgm{
+        width: 100%;
+    }
+    .prot-yourself .do-container .midm .imgm img{
+        width: 100%;
+    }
+    
+    .prot-yourself .do-container .right{
+        width: 90%;
+        margin: auto;
+    }
+    
+    
+    /* <!-- End do % donts protect your selfffffffff --> */
+    
+    
+    
+
+
+
+
+    .last-update h3{
+        width: 90%;
+        text-align: center;
+    }
+    .last-update h1{
+        width: 90%;
+        text-align: center;
+    }
+    
+    .last-update .card-container{
+        width: 100%;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+    .last-update .card-container .card{
+        width: 90%;
+        margin: auto;
+    }
+    
+    
+    /* End last updateeeeeeeeeee */
+    
+    
+
+    
+    .footer .upper .upper-container{
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+    .footer .upper .upper-container .sect{
+        width: 90%;
+    }
+    .footer .upper .upper-container .sect .logof{
+        font-size: 28px;
+    }
+    
+    div.downer{
+        width: 88%;
+        margin: auto;
+        padding: 100px 0px;
+    }
+    
+    .downer .top{
+        padding-bottom: 20px;
+    }
+    /* End Footerrrrrrrrrrrrrr */
+
+}
